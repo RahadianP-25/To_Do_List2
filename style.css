@@ -1,0 +1,121 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: url('img/aesthetic-transparent-background-png-landscape-sunset-mountain-design_53876-1030612.avif') center/cover no-repeat fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    max-width: 1000px;
+    margin: 80px auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    padding-bottom: 20px;
+}
+
+.header-container {
+    padding: 1%;
+    background: #A9DEFF;
+    border-radius: 12px;
+}
+
+h1 {   
+    text-align: center;
+    color: #333;
+}
+
+.form-container {
+    padding: 20px;
+}
+
+.form-todo {
+    display: flex;
+    gap: 10px;
+}
+
+.form-todo input, .form-todo select {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.form-todo button {
+    padding: 10px 20px;
+    background: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.list-container {
+    padding: 20px;
+}
+
+.todo-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.todo-table th, .todo-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.todo-table th {
+    background-color: #f2f2f2;
+}
+
+.todo-table tr.done td {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.inline-form {
+    display: inline-block;
+    margin: 2px;
+}
+
+.inline-form input[type="text"] {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.inline-form button {
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+    margin-top: 5px;
+}
+
+.mark-button {
+    background-color: #2196F3;
+    color: white;
+}
+
+.delete-button {
+    background: #f44336;
+    color: white;
+}
+
+.edit-button {
+    background: #FFC107;
+    color: white;
+}
+
+.empty {
+    text-align: center;
+    color: #999;
+    font-style: italic;
+    padding: 1rem;
+    border: 1px dashed #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+}
